@@ -1,0 +1,103 @@
+* {
+    border: 0 solid black;
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+}
+
+html {
+    height: 100vh;
+    font-size: 14px;
+    background-color: lightgrey;
+}
+
+body {
+    margin: 5% 20%;
+    padding: 5% 10%;
+    font-family: sans-serif;
+    color: #eeee00;
+    background-color: #111111;
+    border: 5px double #eeee00;
+}
+
+header {
+    text-align: center;
+    border-bottom: 4px dotted #eeee00;
+    margin: 0 10% 2rem 10%;
+}
+
+.source, figcaption {
+    font-size: 0.6rem;
+    padding-bottom: 1rem;
+}
+h1 {
+    font-family: "Times New Roman";
+    font-weight: 400;
+    font-style: italic;
+}
+
+.menu li {
+    padding: 0.5rem;
+}
+
+.ingredients li {
+    padding: 0.1rem;
+}
+li {
+    list-style: none;
+}
+
+a {
+    color: #eeee00;
+    text-decoration: underline brown;
+    font-weight: bold;
+}
+
+a:hover {
+    /*background-color: #999900;*/
+    font-weight:bold;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width:60%;
+}
+
+section {
+    padding: 1rem;
+}
+section h2 {
+    color: grey;
+}
+
+dl dt, .subsection h3{
+    padding: 1.5px 2rem;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.note {
+    margin-top: 1rem;
+    background-color: lightpink;
+    text-align: center;
+    color: black;
+}
+
+.note p {
+    font-family: monospace; 
+    font-size: 0.9rem;
+}
+
+.note h2 {
+    color: #111111;
+    font-weight: 400;
+    font-family: "Times New Roman";
+    font-style: italic;
+    border-bottom: 3px double #111111;
+    margin: 0.5rem;
+}
+
+h2 {
+    font-family: "Times New Roman";
+}
